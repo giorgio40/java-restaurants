@@ -42,9 +42,9 @@ public class Swagger2Config
      */
     private ApiInfo apiEndPointsInfo()
     {
-        return new ApiInfoBuilder().title("Restaurant Example")
-            .description("Restaurant Example")
-            .contact(new Contact("John Mitchell",
+        return new ApiInfoBuilder().title("DogDietApp-BackEnd")
+            .description("Dog Diets")
+            .contact(new Contact("George Hatzigeorgio",
                 "http://www.lambdaschool.com",
                 "john@lambdaschool.com"))
             .license("MIT")
